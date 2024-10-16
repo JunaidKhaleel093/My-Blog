@@ -1,0 +1,144 @@
+body {
+  background-color: #f8f8ff ;
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#name {
+  color: #738678;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 70px;
+  font-weight: 500;
+  font-style: normal;
+}
+#name-2 {
+  color: #800000;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#abt-sec {
+  font-family: "Roboto Slab", serif;
+  text-decoration: underline;
+  font-weight: 400;
+  color: #321414;
+}
+#abt-inf {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  color: #080808;
+}
+#projects-text {
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.card-title {
+  color: #856d4d;
+  text-decoration: underline;
+  font-family: "Qwitcher Grypen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.big-image {
+  width: 100%;
+  min-height: 440px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 10px;
+}
+
+.image-container {
+  width: 100%;
+  height: 80%;
+}
+
+.carousel-image {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.col-md-4 {
+  padding: 10px;
+}
+
+.text-section {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.image-section {
+  flex: 0 0 30%;
+}
+
+.image-section img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.btn-custom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
+.card-img-top {
+  transition: transform 0.3s ease;
+}
+
+.card-img-top:hover {
+  transform: translateY(-10px);
+}
+.mt-2{
+    background-color: #dcdcdc ;
+    border: 1px solid #c0c0c0 ;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 8px #757575;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-body{
+    background-color: transparent;
+    backdrop-filter: blur(50%);
+    box-shadow: 0 4px 8px #757575;
+    border:1px solid #c0c0c0 ;
+}
