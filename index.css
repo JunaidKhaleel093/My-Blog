@@ -142,3 +142,12 @@ body {
     box-shadow: 0 4px 8px #757575;
     border:1px solid #c0c0c0 ;
 }
+.fav-com{
+  background-color: #c0c0c0;
+  width: auto;
+  border-radius: 2px;
+}
+.fav-com i{
+  margin-left: 100px;
+  margin-right: 5px;
+}
