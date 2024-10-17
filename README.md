@@ -2,9 +2,9 @@
 A personal blog website built using HTML, CSS, Bootstrap, and javascript to share articles, insights, and creative content.
 
 # Features
--Responsive Design: Adapts to different screen sizes using Bootstrap for layout and styling.
--Interactive UI: Includes smooth transitions and animations for a better user experience.
--Comment Section: Allows users to leave comments on blog posts.
+-Responsive Design: Adapts to different screen sizes using Bootstrap for layout and styling.<br>
+-Interactive UI: Includes smooth transitions and animations for a better user experience.<br>
+-Comment Section: Allows users to leave comments on blog posts.<br>
 -Deployment: The blog is deployed on GitHub Pages for easy access.
 
 ## 🛠 Skills
